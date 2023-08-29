@@ -1,0 +1,52 @@
+:root {
+  --grau: #867772;
+  --apricot: #ebccc2;
+}
+
+.image {
+  background-image: url("../img/section-composition4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 60%;
+  height: 100vh;
+}
+
+article {
+  flex-direction: column;
+  width: 40%;
+  margin: 0 0 0 70vw;
+  display: flex;
+  align-items: center;
+}
+
+.Kopfhörer {
+  padding: 10vh 0;
+}
+
+article h1 {
+  font-size: 4.8rem;
+  font-weight: 300;
+  color: var(--apricot);
+  margin-bottom: 20px;
+}
+
+article p {
+  margin-bottom: 20px;
+}
+
+article button {
+  background-color: var(--apricot);
+  padding: 12px 30px;
+  font-size: 1.6rem;
+  border: none;
+  font-family: work;
+  font-weight: 400;
+}
+
+article button:hover {
+  background-color: transparent;
+  padding: 12px 30px;
+  font-size: 1.6rem;
+  border: 1px solid var(--apricot);
+  color: var(--apricot);
+}

@@ -1,0 +1,26 @@
+:root {
+  --grau: #867772;
+  --apricot: #ebccc2;
+}
+
+.image {
+  background-image: url("../img/section-voyager.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 60vw;
+  height: 100vh;
+}
+
+article {
+  display: block;
+  margin: 0 5vw 0 65vw;
+  width: 20vw;
+  padding-top: 20vh;
+}
+
+article h1 {
+  font-size: 4.8rem;
+  font-weight: 300;
+  color: var(--apricot);
+  margin-bottom: 20px;
+}

@@ -1,0 +1,24 @@
+:root {
+  --grau: #867772;
+  --apricot: #ebccc2;
+}
+
+html {
+  background-image: url("../img/section-composition4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+h1 {
+  color: var(--apricot);
+  text-align: center;
+  font-size: 10rem;
+  margin: 30vh 30vw 30vh 30vw;
+  font-weight: 300;
+}
+
+h1:hover {
+  text-shadow: 0 0 20px white;
+}

@@ -1,0 +1,162 @@
+@font-face {
+  font-family: work;
+  src: url("../fonts/WorkSans-VariableFont_wght.ttf");
+}
+
+:root {
+  --grau: #867772;
+  --apricot: #ebccc2;
+}
+
+* {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #3e3e3e;
+  font-family: work;
+}
+
+h2 {
+  color: var(--apricot);
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+
+p {
+  font-size: 1.6rem;
+  color: var(--grau);
+}
+
+a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: var(--grau);
+}
+
+/* - header */
+
+header {
+  height: 96px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 45px;
+  top: 0;
+  width: 100vw;
+  position: fixed;
+}
+
+header img {
+  height: 50%;
+  margin: 0 auto 0 40px;
+}
+
+header nav {
+  margin-right: 60px;
+}
+
+header nav p,
+a {
+  display: inline;
+  padding-left: 30px;
+}
+
+header nav p:hover,
+a:hover {
+  color: white;
+  transition: 0.7s;
+  text-decoration: underline;
+}
+
+/* -main */
+/* * aside */
+
+.aside {
+  position: fixed;
+  margin-left: 40px;
+  margin-top: 10vh;
+}
+
+.sidebar {
+  display: block;
+  height: 40px;
+  border-left: 1px solid var(--grau);
+  margin: 20px 0;
+  margin-left: 10px;
+}
+
+.aside a {
+  display: block;
+}
+
+.aside a:hover {
+  color: white;
+  transition: 0.7s;
+  text-decoration: none;
+}
+
+.aside div {
+  display: flex;
+  align-items: center;
+}
+
+.active a {
+  color: white;
+  font-size: 2rem;
+}
+
+.active img {
+  border: 3px solid white;
+}
+/*  Ellipse */
+
+.ellipse {
+  margin: 0;
+  width: 20px;
+  border: 3px solid var(--grau);
+  border-radius: 50%;
+  padding: 5px;
+}
+
+/* *main */
+section {
+  padding-top: 100px;
+  margin-bottom: 40px;
+}
+section p {
+  font-size: 2.4rem;
+  color: var(--apricot);
+  margin: 0 50vw 90px 35vw;
+  width: 15vw;
+  font-weight: 300;
+}
+
+section img {
+  width: 94%;
+  margin: 0 60px;
+}
+
+.index {
+  margin: 0 20vw 60px 20vw;
+  display: flex;
+  align-items: center;
+}
+
+article img {
+  padding: 70px 60px 35px 0;
+}
+
+article div {
+  flex-direction: column;
+}
+article h2 {
+  margin-bottom: 20px;
+}
+
+article p {
+  margin-bottom: 20px;
+}
